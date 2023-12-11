@@ -1,6 +1,8 @@
 from flask import Flask
 from flask_restful import Api
-from resources.estudiantes import EstudianteResource, EstudiantesResource, CiudadesResource, CiudadResource, IndexResource
+from resources.estudiantes import EstudianteResource, EstudiantesResource
+from resources.ciudades import CiudadResource, CiudadesResource
+from resources.index import IndexResource
 
 
 app = Flask(__name__)
